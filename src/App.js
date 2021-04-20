@@ -9,18 +9,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p id="p1">¿Que quieres hacer?</p>
-        <Button variant="contained">Default</Button>
-      <Button variant="contained" color="primary">
-        Primary
-      </Button>
-        <button id="uno">Dar de alta PAS</button>
-        <button id="dos">Dar de alta Centro Sanitario</button>
-        <button id="tres">Dar de alta médico</button>
-        <button id="cuatro">Crear cuadro médico</button>
-        <button id="cinco">Visualizar Cuadros Médicos</button>
-        <button id="seis">Buscar, modificar y eliminar Cuadro Médico</button>
-        <button id="siete">Buscar Centro Sanitario</button>
-        <img src={logo} className="App-logo" alt="logo" />
+        <Button variant="contained" color="primary" id="uno">Dar de alta PAS</Button>
+        <Button variant="contained" color="primary" id="dos">Dar de alta Centro Sanitario</Button>
+        <Button variant="contained" color="primary" id="tres">Dar de alta médico</Button>
+        <Button variant="contained" color="primary" id="cuatro">Crear cuadro médico</Button>
+        <Button variant="contained" color="primary" id="cinco">Visualizar Cuadros<br></br> Médicos</Button>
+        <Button variant="contained" color="primary" id="seis">Buscar, modificar y<br></br> eliminar Cuadro Médico</Button>
+        <Button variant="contained" color="primary" id="siete">Buscar Centro Sanitario</Button>
+
       </header>
     </div>
   );
